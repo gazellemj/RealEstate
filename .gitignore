@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files (too large for GitHub)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models (too large)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
